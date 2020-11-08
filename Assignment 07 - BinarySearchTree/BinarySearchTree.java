@@ -1,4 +1,4 @@
-
+// from reference implementation of BST
 public class BinarySearchTree extends BinaryTree
 {
        //default constructor
