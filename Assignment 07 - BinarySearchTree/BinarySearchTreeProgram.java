@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class BinarySearchTreeDemo {
+public class BinarySearchTreeProgram {
     public static void main(String[] args) {
         BinarySearchTree t = new BinarySearchTree();
         Random random = new Random();
