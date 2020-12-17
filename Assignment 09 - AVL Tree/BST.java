@@ -1,3 +1,4 @@
+// from reference implementation of AVL Tree
 public class BST<E extends Comparable<E>> implements Tree<E> {
   protected TreeNode<E> root;
   protected int size = 0;
@@ -105,7 +106,7 @@ public class BST<E extends Comparable<E>> implements Tree<E> {
     preorder(root.right);
   }
 
-  /** This inner class is static, because it does not access 
+  /** This inner class is static, because it does not access
       any instance members defined in its outer class */
   public static class TreeNode<E> {
     protected E element;
@@ -204,7 +205,7 @@ public class BST<E extends Comparable<E>> implements Tree<E> {
         parentOfRightMost.right = rightMost.left;
       else
         // Special case: parentOfRightMost == current
-        parentOfRightMost.left = rightMost.left;     
+        parentOfRightMost.left = rightMost.left;
     }
 
     size--;
@@ -256,9 +257,9 @@ public class BST<E extends Comparable<E>> implements Tree<E> {
     @Override // Remove the element returned by the last next()
     public void remove() {
     	if (current == 0) // next() has not been called yet
-        throw new IllegalStateException(); 
+        throw new IllegalStateException();
 
-    	delete(list.get(--current)); 
+    	delete(list.get(--current));
       list.clear(); // Clear the list
       inorder(); // Rebuild the list
     }

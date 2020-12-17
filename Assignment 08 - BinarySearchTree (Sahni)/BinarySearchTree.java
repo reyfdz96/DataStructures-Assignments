@@ -1,4 +1,4 @@
-
+// from Sahni implementation of BST
 /** binary search tree */
 
 public class BinarySearchTree extends LinkedBinaryTree

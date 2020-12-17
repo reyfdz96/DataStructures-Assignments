@@ -1,4 +1,4 @@
-
+// from Sahni implementation of BST
 public interface Dictionary
 {
    public Object get(Object key);

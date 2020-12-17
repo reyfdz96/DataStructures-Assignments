@@ -4,7 +4,6 @@ public class SparseMatrixDemo {
         SparseMatrix s = new SparseMatrix(8); // create an instance of the SparceMatrix
         SparseMatrix sTrans = new SparseMatrix(8); // will hold the transposed matrix returned by the transpose method.
 
-
         s.setTerm(0,0,0,15);
         s.setTerm(1,0,3,22);
         s.setTerm(2,0,5,-15);

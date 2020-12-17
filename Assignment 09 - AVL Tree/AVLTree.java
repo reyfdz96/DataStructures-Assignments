@@ -1,3 +1,4 @@
+// from reference implementation of AVL Tree
 public class AVLTree<E extends Comparable<E>> extends BST<E> {
   /** Create an empty AVL tree */
   public AVLTree() {
